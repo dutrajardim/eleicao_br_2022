@@ -2,6 +2,11 @@
 
 Exploração de dados disponibilizados pelo Trubunal Superior Eleitoral, referentes à eleição para presidente do Brasil em 2022.
 
+## Trabalhos realizados
+
+- Tratamento: [notebook](./tratamento.ipynb)
+- Análise: [notebook](./analise.ipynb)
+
 ## Fonte
 
 Dados retirados do site do [TSE](https://cdn.tse.jus.br) (Tribunal Superior Eleitoral) em 5 de Novembro de 2022.
@@ -83,3 +88,8 @@ O documento descritivo dos dados de correspondências efetivadas foi extraído d
 
 O documento descritivo dos dados de correspondências entre número interno e modelo da urna foi extraído do arquivo de compressão e salvo em [leiame/modelourna_numerointerno.pdf](leiame/modelourna_numerointerno.pdf). <br>
 O arquivo de compressão foi baixado do link [https://cdn.tse.jus.br/estatistica/sead/odsele/modelo_urna/modelourna_numerointerno.zip](https://cdn.tse.jus.br/estatistica/sead/odsele/modelo_urna/modelourna_numerointerno.zip). Deste arquivo foi extraído o arquivo de dados [modelourna_numerointerno.csv](data/modelourna_numerointerno/modelourna_numerointerno.csv).
+
+### Votação por seção eleitoral
+
+O documento descritivo dos dados de votação por seção eleitoral foi extraído do arquivo de cmpressão e salvo em [leiame/votacao_secao_2022_BR.pdf](leiame/votacao_secao_2022_BR.pdf). <br>
+O arquivo de compressão foi baixado do link [https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2022_BR.zip](https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2022_BR.zip) e salvo em [votacao_secao_2022_BR.zip](data/votacao_secao_2022_BR.zip).

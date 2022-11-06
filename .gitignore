@@ -1,1 +1,3 @@
 .venv
+data/votacao_secao_2022_BR.zip
+data/votacao.parquet.gzip
